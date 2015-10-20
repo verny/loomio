@@ -1,7 +1,0 @@
-I"u(function() {
-  $("body.discussions.print").ready(function() {
-    return window.print();
-  });
-
-}).call(this);
-:ET

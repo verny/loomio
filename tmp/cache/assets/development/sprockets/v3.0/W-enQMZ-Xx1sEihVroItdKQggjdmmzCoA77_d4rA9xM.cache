@@ -1,9 +1,0 @@
-I"£(function() {
-  $(function() {
-    return $('#select_category').on('change', function() {
-      return window.location = this.value;
-    });
-  });
-
-}).call(this);
-:ET
