@@ -1,0 +1,8 @@
+.previous-proposals-page {
+}
+
+.previous-proposals-page__previous-proposals {
+  @include cardNoPadding;
+  padding-top: 10px;
+  clear: both;
+}

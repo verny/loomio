@@ -1,0 +1,2 @@
+El programa «postgres» no está instalado. Puede instalarlo escribiendo:
+sudo apt-get install postgres-xc

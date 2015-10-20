@@ -1,0 +1,175 @@
+# Logfile created on 2015-10-18 19:47:23 -0600 by logger.rb/47272
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Starting the New Relic agent in "production" environment.
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] WARN : No configuration file found. Working directory = /home/verny/Projects/CrS/gente/repositories/loomio/loomio
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] WARN : Looked in these locations (based on defaults): /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/.newrelic/newrelic.yml, /home/verny/newrelic.yml
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Environment: production
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : No known dispatcher detected.
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Application: production
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing middleware-based Excon instrumentation
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing Net instrumentation
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing Rails 3+ middleware instrumentation
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing ActiveRecord 4 instrumentation
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing Memcache instrumentation for dalli gem
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing ActiveJob instrumentation
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing deferred Rack instrumentation
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing Rack::Builder middleware instrumentation
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing Rails 4 Controller instrumentation
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing Rails 4 view instrumentation
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Installing Rails 4 Error instrumentation
+[10/18/15 19:47:23 -0600 verny-K43E (9998)] INFO : Finished instrumentation
+[10/18/15 19:47:51 -0600 verny-K43E (9998)] INFO : Doing deferred dependency-detection before Rack startup
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Starting the New Relic agent in "production" environment.
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] WARN : No configuration file found. Working directory = /home/verny/Projects/CrS/gente/repositories/loomio/loomio
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] WARN : Looked in these locations (based on defaults): /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/.newrelic/newrelic.yml, /home/verny/newrelic.yml
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Environment: production
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : No known dispatcher detected.
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Application: production
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing middleware-based Excon instrumentation
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing Net instrumentation
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing Rails 3+ middleware instrumentation
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing ActiveRecord 4 instrumentation
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing Memcache instrumentation for dalli gem
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing ActiveJob instrumentation
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing deferred Rack instrumentation
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing Rack::Builder middleware instrumentation
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing Rails 4 Controller instrumentation
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing Rails 4 view instrumentation
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Installing Rails 4 Error instrumentation
+[10/18/15 19:57:21 -0600 verny-K43E (10183)] INFO : Finished instrumentation
+[10/18/15 19:57:33 -0600 verny-K43E (10183)] INFO : Doing deferred dependency-detection before Rack startup
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Starting the New Relic agent in "production" environment.
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] WARN : No configuration file found. Working directory = /home/verny/Projects/CrS/gente/repositories/loomio/loomio
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] WARN : Looked in these locations (based on defaults): /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/.newrelic/newrelic.yml, /home/verny/newrelic.yml
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Environment: production
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : No known dispatcher detected.
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Application: production
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing middleware-based Excon instrumentation
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing Net instrumentation
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing Rails 3+ middleware instrumentation
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing ActiveRecord 4 instrumentation
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing Memcache instrumentation for dalli gem
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing ActiveJob instrumentation
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing deferred Rack instrumentation
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing Rack::Builder middleware instrumentation
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing Rails 4 Controller instrumentation
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing Rails 4 view instrumentation
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Installing Rails 4 Error instrumentation
+[10/18/15 19:58:26 -0600 verny-K43E (10200)] INFO : Finished instrumentation
+[10/18/15 19:58:30 -0600 verny-K43E (10200)] INFO : Doing deferred dependency-detection before Rack startup
+[10/18/15 19:58:42 -0600 verny-K43E (10200)] INFO : delayed_job not available: No DJ worker present. Skipping DJ queue sampler
+[10/18/15 19:58:44 -0600 verny-K43E (10200)] ERROR : Invalid license key, please contact support@newrelic.com
+[10/18/15 19:58:44 -0600 verny-K43E (10200)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[10/18/15 20:01:13 -0600 verny-K43E (10200)] INFO : Starting Agent shutdown
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Starting the New Relic agent in "production" environment.
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] WARN : No configuration file found. Working directory = /home/verny/Projects/CrS/gente/repositories/loomio/loomio
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] WARN : Looked in these locations (based on defaults): /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/.newrelic/newrelic.yml, /home/verny/newrelic.yml
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Environment: production
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : No known dispatcher detected.
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Application: production
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing middleware-based Excon instrumentation
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing Net instrumentation
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing Rails 3+ middleware instrumentation
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing ActiveRecord 4 instrumentation
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing Memcache instrumentation for dalli gem
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing ActiveJob instrumentation
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing deferred Rack instrumentation
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing Rack::Builder middleware instrumentation
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing Rails 4 Controller instrumentation
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing Rails 4 view instrumentation
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Installing Rails 4 Error instrumentation
+[10/18/15 20:01:20 -0600 verny-K43E (10275)] INFO : Finished instrumentation
+[10/18/15 20:01:24 -0600 verny-K43E (10275)] INFO : Doing deferred dependency-detection before Rack startup
+[10/18/15 20:01:29 -0600 verny-K43E (10275)] INFO : delayed_job not available: No DJ worker present. Skipping DJ queue sampler
+[10/18/15 20:01:29 -0600 verny-K43E (10275)] ERROR : Invalid license key, please contact support@newrelic.com
+[10/18/15 20:01:29 -0600 verny-K43E (10275)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[10/18/15 20:01:51 -0600 verny-K43E (10275)] INFO : Starting Agent shutdown
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Starting the New Relic agent in "production" environment.
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] WARN : No configuration file found. Working directory = /home/verny/Projects/CrS/gente/repositories/loomio/loomio
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] WARN : Looked in these locations (based on defaults): /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/.newrelic/newrelic.yml, /home/verny/newrelic.yml
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Environment: production
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : No known dispatcher detected.
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Application: production
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing middleware-based Excon instrumentation
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing Net instrumentation
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing Rails 3+ middleware instrumentation
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing ActiveRecord 4 instrumentation
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing Memcache instrumentation for dalli gem
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing ActiveJob instrumentation
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing deferred Rack instrumentation
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing Rack::Builder middleware instrumentation
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing Rails 4 Controller instrumentation
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing Rails 4 view instrumentation
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Installing Rails 4 Error instrumentation
+[10/18/15 20:01:59 -0600 verny-K43E (10285)] INFO : Finished instrumentation
+[10/18/15 20:02:02 -0600 verny-K43E (10285)] INFO : Doing deferred dependency-detection before Rack startup
+[10/18/15 20:02:04 -0600 verny-K43E (10285)] INFO : delayed_job not available: No DJ worker present. Skipping DJ queue sampler
+[10/18/15 20:02:05 -0600 verny-K43E (10285)] ERROR : Invalid license key, please contact support@newrelic.com
+[10/18/15 20:02:05 -0600 verny-K43E (10285)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[10/18/15 20:02:43 -0600 verny-K43E (10285)] INFO : Starting Agent shutdown
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Starting the New Relic agent in "production" environment.
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] WARN : No configuration file found. Working directory = /home/verny/Projects/CrS/gente/repositories/loomio/loomio
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] WARN : Looked in these locations (based on defaults): /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/.newrelic/newrelic.yml, /home/verny/newrelic.yml
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Environment: production
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : No known dispatcher detected.
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Application: production
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing middleware-based Excon instrumentation
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing Net instrumentation
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing Rails 3+ middleware instrumentation
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing ActiveRecord 4 instrumentation
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing Memcache instrumentation for dalli gem
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing ActiveJob instrumentation
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing deferred Rack instrumentation
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing Rack::Builder middleware instrumentation
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing Rails 4 Controller instrumentation
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing Rails 4 view instrumentation
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Installing Rails 4 Error instrumentation
+[10/18/15 20:31:26 -0600 verny-K43E (10988)] INFO : Finished instrumentation
+[10/18/15 20:31:31 -0600 verny-K43E (10988)] INFO : Doing deferred dependency-detection before Rack startup
+[10/18/15 20:31:37 -0600 verny-K43E (10988)] INFO : delayed_job not available: No DJ worker present. Skipping DJ queue sampler
+[10/18/15 20:31:38 -0600 verny-K43E (10988)] ERROR : Invalid license key, please contact support@newrelic.com
+[10/18/15 20:31:38 -0600 verny-K43E (10988)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[10/18/15 20:38:18 -0600 verny-K43E (10988)] INFO : Starting Agent shutdown
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Starting the New Relic agent in "production" environment.
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] WARN : No configuration file found. Working directory = /home/verny/Projects/CrS/gente/repositories/loomio/loomio
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] WARN : Looked in these locations (based on defaults): /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/config/newrelic.yml, /home/verny/Projects/CrS/gente/repositories/loomio/loomio/newrelic.yml, /home/verny/.newrelic/newrelic.yml, /home/verny/newrelic.yml
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Environment: production
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : No known dispatcher detected.
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Application: production
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing middleware-based Excon instrumentation
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing Net instrumentation
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing Rails 3+ middleware instrumentation
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing ActiveRecord 4 instrumentation
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing Memcache instrumentation for dalli gem
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing ActiveJob instrumentation
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing deferred Rack instrumentation
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing Rack::Builder middleware instrumentation
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing Rails 4 Controller instrumentation
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing Rails 4 view instrumentation
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Installing Rails 4 Error instrumentation
+[10/18/15 20:40:04 -0600 verny-K43E (11151)] INFO : Finished instrumentation
+[10/18/15 20:40:11 -0600 verny-K43E (11151)] INFO : Doing deferred dependency-detection before Rack startup
+[10/18/15 20:40:15 -0600 verny-K43E (11151)] INFO : delayed_job not available: No DJ worker present. Skipping DJ queue sampler
+[10/18/15 20:40:16 -0600 verny-K43E (11151)] ERROR : Invalid license key, please contact support@newrelic.com
+[10/18/15 20:40:16 -0600 verny-K43E (11151)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[10/18/15 20:44:30 -0600 verny-K43E (11151)] INFO : Starting Agent shutdown

@@ -1,0 +1,7 @@
+.group-page {
+  padding-top: 48px;
+}
+
+.group-page__description {
+  @include card;
+}

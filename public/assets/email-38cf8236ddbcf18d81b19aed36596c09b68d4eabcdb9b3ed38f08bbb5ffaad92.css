@@ -1,0 +1,188 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/unstructured\/_settings\.scss}line{font-family:\0000352}}
+p.font-mid-grey {
+  color: #777;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\000033}}
+img {
+  max-width: 500px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\000035}}
+blockquote {
+  margin: 0 3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\000037}}
+blockquote p {
+  max-width: 34em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000310}}
+hr {
+  max-width: 40em;
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000315}}
+h1, h2, h3, h4, h5, h6 {
+  max-width: 40em;
+  margin: .2em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000320}}
+p {
+  max-width: 40em;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000324}}
+p img {
+  max-width: 500px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000327}}
+p.unsubscribe {
+  font-size: 0.8em;
+  border-top: 1px solid #CCCCCC;
+  padding-top: 5px;
+  max-width: 50em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000334}}
+table {
+  max-width: 40em;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000338}}
+table img {
+  margin-right: .4em;
+  width: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000344}}
+.cell-border-bottom {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000346}}
+th {
+  text-align: right;
+  vertical-align: top;
+  padding-right: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000352}}
+.agreed, .yes {
+  color: #90D490;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000353}}
+.abstained, .abstain {
+  color: #F0BB67;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000354}}
+.disagreed, .no {
+  color: #D49090;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000355}}
+.blocked, .block {
+  color: #dd0000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000357}}
+.yes-link {
+  font-weight: bold;
+  margin: 0 5px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000362}}
+.abstain-link {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000367}}
+.no-link {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000372}}
+.block-link {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000377}}
+.positions-title, .closes-in-text, .have-say-title, .activity-email-subsection {
+  color: #555;
+  margin: 1em 0 .2em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000382}}
+.author-action {
+  margin: 1em 0 .2em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000383}}
+.motion-name {
+  max-width: none;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000388}}
+.comment {
+  padding-left: 25px;
+  max-width: 40em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000393}}
+.proposal-position {
+  padding: 0 0.5em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000398}}
+.proposal-text {
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003104}}
+.outcome-header {
+  font-size: 1.2em;
+  margin: 14px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003108}}
+.outcome-subheader {
+  font-weight: 700;
+  font-size: 1em;
+  margin: 14px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003114}}
+.proposal-outcome p {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003116}}
+.proposal-details {
+  margin: 0;
+  color: #555;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003121}}
+.nowrap {
+  white-space: nowrap;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003123}}
+p.campaign {
+  background-color: #E6E6E6;
+  padding: 10px;
+  margin-top: 14px;
+}

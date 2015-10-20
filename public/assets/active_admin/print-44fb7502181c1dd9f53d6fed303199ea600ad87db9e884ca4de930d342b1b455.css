@@ -1,0 +1,596 @@
+/* Active Admin Print Stylesheet */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/mixins\/_reset\.scss}line{font-family:\0000337}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/mixins\/_reset\.scss}line{font-family:\0000347}}
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/mixins\/_reset\.scss}line{font-family:\0000349}}
+ol, ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/mixins\/_reset\.scss}line{font-family:\0000351}}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/mixins\/_reset\.scss}line{font-family:\0000353}}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/mixins\/_reset\.scss}line{font-family:\0000355}}
+q, blockquote {
+  quotes: "" "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/mixins\/_reset\.scss}line{font-family:\00003126}}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/mixins\/_reset\.scss}line{font-family:\0000357}}
+a img {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000327}}
+html {
+  font-size: 100.01%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000328}}
+body {
+  font-size: 75%;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000331}}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000334}}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000337}}
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000338}}
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000339}}
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000340}}
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000341}}
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000342}}
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000345}}
+p {
+  margin: 0 0 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000348}}
+p .left {
+  margin: 1.5em 1.5em 1.5em 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000349}}
+p .right {
+  margin: 1.5em 0 1.5em 1.5em;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000352}}
+.left {
+  float: left !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000353}}
+.right {
+  float: right !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000355}}
+blockquote {
+  margin: 1.5em;
+  color: #666;
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000356}}
+strong, dfn {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000357}}
+em, dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000358}}
+sup, sub {
+  line-height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000360}}
+abbr,
+acronym {
+  border-bottom: 1px dotted #666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000362}}
+address {
+  margin: 0 0 1.5em;
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000363}}
+del {
+  color: #666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000365}}
+pre {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000366}}
+pre, code, tt {
+  font: 1em 'andale mono', 'lucida console', monospace;
+  line-height: 1.5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000369}}
+li ul,
+li ol {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000371}}
+ul, ol {
+  margin: 0 1.5em 1.5em 0;
+  padding-left: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000373}}
+ul {
+  list-style-type: disc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000374}}
+ol {
+  list-style-type: decimal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000376}}
+dl {
+  margin: 0 0 1.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000377}}
+dl dt {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000378}}
+dd {
+  margin-left: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000381}}
+table {
+  margin-bottom: 1.4em;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000382}}
+th {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000383}}
+thead th {
+  background: #c3d9ff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000384}}
+th, td, caption {
+  padding: 4px 10px 4px 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000387}}
+.small {
+  font-size: .8em;
+  margin-bottom: 1.875em;
+  line-height: 1.875em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000388}}
+.large {
+  font-size: 1.2em;
+  line-height: 2.5em;
+  margin-bottom: 1.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000389}}
+.hide {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000391}}
+.quiet {
+  color: #666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000392}}
+.loud {
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000393}}
+.highlight {
+  background: #ff0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000394}}
+.added {
+  background: #060;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000395}}
+.removed {
+  background: #900;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000397}}
+.first {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000398}}
+.last {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\0000399}}
+.top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/_typography\.scss}line{font-family:\00003100}}
+.bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000314}}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 150%;
+  font-size: 72%;
+  background: #fff;
+  width: 99%;
+  margin: 0;
+  padding: .5%;
+  color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000325}}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000330}}
+h3 {
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000336}}
+#header {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000339}}
+#header #tabs, #header .tabs, #header #utility_nav {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000343}}
+#header h1 {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000348}}
+.flashes {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000352}}
+#title_bar {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000355}}
+#title_bar h2 {
+  line-height: 2em;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000360}}
+#title_bar .breadcrumb, #title_bar #titlebar_right {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000366}}
+#active_admin_content {
+  border-top: thick solid black;
+  clear: both;
+  margin-top: 2em;
+  padding-top: 3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000374}}
+#footer {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000380}}
+.table_tools ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000385}}
+.table_tools ul li {
+  display: none;
+  padding: 0;
+  margin-bottom: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000390}}
+.table_tools ul li.scope.selected, .table_tools ul li.index.selected {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000393}}
+.table_tools ul li.scope.selected:before, .table_tools ul li.index.selected:before {
+  content: "Showing ";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\0000397}}
+.table_tools ul li.scope.selected a, .table_tools ul li.index.selected a {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003101}}
+.table_tools ul li.scope.selected span, .table_tools ul li.index.selected span {
+  display: inline-block;
+  font-weight: normal;
+  font-size: .9em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003112}}
+table {
+  margin-bottom: 1.5em;
+  text-align: left;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003117}}
+table thead {
+  display: table-header-group;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003120}}
+table thead th {
+  background: none;
+  border-bottom: medium solid black;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003125}}
+table thead th a {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003131}}
+table th, table td {
+  padding: .5em 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003134}}
+table th .member_link, table td .member_link {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003139}}
+table td {
+  border-bottom: thin solid black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003143}}
+table tr {
+  page-break-inside: avoid;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003149}}
+#index_footer, .pagination_information {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003154}}
+.index_grid td {
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003159}}
+.index_grid td img {
+  max-width: 1in;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003166}}
+.panel {
+  border-bottom: thick solid #ccc;
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  page-break-inside: avoid;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003172}}
+.panel:last-child {
+  border-bottom: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003178}}
+.comments form {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003182}}
+.comments .active_admin_comment {
+  border-top: thin solid black;
+  padding-top: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003187}}
+.comments .active_admin_comment .active_admin_comment_meta h4 {
+  font-size: 1em;
+  font-weight: bold;
+  float: left;
+  margin-right: .5em;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003195}}
+.comments .active_admin_comment .active_admin_comment_meta span {
+  font-size: .9em;
+  font-style: italic;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003202}}
+.comments .active_admin_comment .active_admin_comment_body {
+  clear: both;
+  margin-bottom: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003211}}
+.attributes_table {
+  border-top: medium solid black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003214}}
+.attributes_table th {
+  border-bottom: thin solid black;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003218}}
+.attributes_table th:after {
+  content: ':';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003224}}
+.attributes_table td img {
+  max-height: 4in;
+  max-width: 6in;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003232}}
+#filters_sidebar_section {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003238}}
+form fieldset {
+  border-top: thick solid #ccc;
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003243}}
+form fieldset:last-child {
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003248}}
+form .buttons, form abbr {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003251}}
+form ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003256}}
+form ol li {
+  border-top: thin solid black;
+  margin: 0;
+  padding: 1em 0;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003262}}
+form ol li.password, form ol li.hidden {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003266}}
+form ol li label {
+  font-weight: bold;
+  float: left;
+  width: 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003272}}
+form ol li input, form ol li textarea, form ol li select {
+  background: none;
+  border: 0;
+  font: Arial, Helvetica, sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003278}}
+form ol li input[type=file] {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/\.rvm\/gems\/ruby-2\.2\.2\@gente\/bundler\/gems\/activeadmin-cef68b7be826\/app\/assets\/stylesheets\/active_admin\/print\.scss}line{font-family:\00003286}}
+.unsupported_browser {
+  display: none;
+}

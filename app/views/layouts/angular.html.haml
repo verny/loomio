@@ -1,0 +1,30 @@
+!!!
+%html{'ng-app' => 'loomioApp', 'ng-controller' => 'ApplicationController as app'}
+  %head
+    %title Loomio
+    %meta{charset: 'utf-8'}
+    %meta{content: 'IE=Edge', 'http-equiv' => 'X-UA-Compatible'}
+    %meta{content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no', name: "viewport"}
+    %base{href: '/'}
+    = stylesheet_link_tag lineman_css_path
+
+    = render 'angular/google_analytics'
+    = render 'angular/intercom'
+    = render 'angular/chargify'
+
+  %body{'ng-keydown' => 'keyDown($event)'}
+    %flash
+    %navbar
+    %ng_outlet{'ng-if' => '!pageError'}
+    %error_page{'ng-if' => 'pageError', 'error' => 'pageError'}
+    %start_menu
+    %angular_feedback_card
+
+    :javascript
+      window.Loomio = #{@appConfig.to_json.html_safe}
+
+    = javascript_include_tag lineman_vendorjs_path
+    = javascript_include_tag lineman_appjs_path
+
+    - if ENV['FAYE_URL']
+      %script{src: "#{ENV['FAYE_URL']}/client.js", type: 'text/javascript'}

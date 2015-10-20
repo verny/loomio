@@ -1,0 +1,64 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\000031}}
+.everything {
+  width: 600px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\000032}}
+.icon {
+  width: 50px;
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\000033}}
+.light-discussion .icon img {
+  width: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\000034}}
+.light-discussion .activity-icon img {
+  width: 18px;
+  height: 18px;
+  margin-left: 22px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\000035}}
+.light-discussion .description {
+  margin-bottom: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\000036}}
+.activity-feed {
+  margin-top: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\000037}}
+.light-proposal .icon img {
+  width: 50px;
+  padding-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\000038}}
+table {
+  width: 600px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\000039}}
+.content {
+  width: 550px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\0000310}}
+.light-discussion {
+  width: 600px;
+  margin-bottom: 3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\0000311}}
+.light-proposal {
+  margin-bottom: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/verny\/Projects\/CrS\/gente\/repositories\/loomio\/loomio\/app\/assets\/stylesheets\/thread_mailer\.scss}line{font-family:\0000312}}
+.motion-pie {
+  float: right;
+}
