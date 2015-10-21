@@ -212,7 +212,7 @@ module ApplicationHelper
       if hide_beta_logo?
         image_url("navbar-logo.png")
       else
-        image_url("navbar-logo-beta.jpg")
+        image_url("navbar-logo-beta.png")
       end
     end
   end
