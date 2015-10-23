@@ -40,6 +40,22 @@ Loomio::Application.configure do
   config.action_mailer.file_settings = {
     :location => Rails.root.join('tmp/mail')
   }
+  
+    config.action_mailer.perform_deliveries = true
+
+  # Send emails using SMTP service
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :address        => 'rs9.websitehostserver.net',
+    :port           => '465',
+    :authentication => :plain,
+    :user_name      => 'cabildo@gente.cr',
+    :password       => '.ByvpT$QJ^Mt',
+    :domain         => 'gente.cr'
+  }
+
+  config.serve_static_files = true
+  #config.action_mailer.raise_delivery_errors = true
 
   config.action_controller.action_on_unpermitted_parameters = :raise
 end
