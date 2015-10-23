@@ -9,7 +9,7 @@ class ExploreController < ApplicationController
   end
 
   def index
-    @groups = Group.visible_on_explore_front_page.page(params[:page]).per(20)
+    @groups = Group.visible_to_public.page(params[:page]).per(20)
   end
 
   def category

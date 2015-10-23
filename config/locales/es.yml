@@ -285,6 +285,8 @@ es:
     email: "Tu correo electrónico "
     email_error: No es una dirección de correo electrónico valida.
     group_name: Nombre del grupo
+    group_description: "Descripción"
+    group_description_placeholder: "Usa este espacio para describir el propósito del grupo, de manera que los miembros sepan por qué están aquí."
     group_name_error: "Se requiere el nombre del grupo. "
     terms_html: "Al empezar un grupo, aceptas los <a href='%{link}' target='_blank'>términos de servicio</a> de Loomio."
     success:
@@ -292,7 +294,7 @@ es:
       email_delivered: "Hemos enviado un correo electrónico a %{email}. Por favor sigue el link que hay dentro para configurar tu grupo"
       email_not_arrived: No te ha llegado el correo electrónico?
       please_hold: Por favor espera hasta 5 minutos para que te llegue el correo electrónico y asegurate de mirar en la la carpeta de correo no solicitado.
-    start_making_decisions: "Para empezar a tomar decisiones juntos con Loomio, crea un grupo. Es gratis."
+    start_making_decisions: "Para empezar a tomar decisiones juntos."
   group_form:
     name: Nombre del grupo
     description: Descripción
