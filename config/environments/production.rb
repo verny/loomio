@@ -72,7 +72,7 @@ Loomio::Application.configure do
   config.action_mailer.smtp_settings = {
     :address        => 'rs9.websitehostserver.net',
     :port           => '465',
-    :authentication => :plain,
+    :authentication => :login,
     :user_name      => 'cabildo@gente.cr',
     :password       => '.ByvpT$QJ^Mt',
     :domain         => 'gente.cr'
