@@ -1,4 +1,9 @@
 namespace :loomio do
+  task set_montes_de_oca_as_default_group: :environment do
+    User.all.each do |user|
+      Membership.create(group_id: 1, user_id: user.id) if !user.groups.map(&:id).include?(1)
+    end
+  end
   task tail_call: :environment do
     RubyVM::InstructionSequence.compile_option = {
       :tailcall_optimization => true,
